@@ -145,6 +145,15 @@ nav button {
   background-color: black;
 }
 
+marquee {
+  font-size: 1.25rem;
+  font-weight: bold;
+  background-color: var(--cyan);
+  color: white;
+  padding: 10px;
+  margin-top: 30px;
+}
+
 .standard-curriculum {
   max-width: 1280px;
   margin: 1px auto;
@@ -281,6 +290,21 @@ nav button {
   font-size: 1.5rem;
 }
 
+.story-1 button {
+  position: relative;
+  width: 12.3125rem;
+  height: 30px;
+  border: none;
+  color: white;
+  border-radius: 26px;
+  font-size: 1.25rem;
+  font-weight: bold;
+  background-color: black;
+  text-align: center;
+  align-items: center;
+  margin-top: -61%;
+}
+
 .story {
   width: 290px;
   height: 301px;
@@ -299,6 +323,22 @@ nav button {
 .story-2 {
   background-image: url("../assets/story-2.png");
   background-repeat: no-repeat;
+}
+
+.story button {
+  position: relative;
+  width: 8.3125rem;
+  height: 30px;
+  border: none;
+  color: white;
+  border-radius: 26px;
+  font-size: 1.25rem;
+  font-weight: bold;
+  background-color: black;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: -65%;
 }
 
 .story-3 {
