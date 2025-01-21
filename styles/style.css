@@ -161,7 +161,7 @@ marquee {
   align-items: center;
   display: flex;
   flex-direction: column;
-  gap: 5rem;
+  gap: 1rem;
 }
 
 .standard-curriculum h2 {
