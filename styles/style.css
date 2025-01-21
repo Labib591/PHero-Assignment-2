@@ -247,7 +247,7 @@ marquee {
 .our-stories {
   max-width: 1280px;
   padding: 20px auto;
-  margin: 10px auto;
+  margin: 0 auto;
   text-align: center;
   align-items: center;
   display: flex;
@@ -290,19 +290,23 @@ marquee {
   font-size: 1.5rem;
 }
 
-.story-1 button {
+.story-1-button {
   position: relative;
-  z-index: 10;
-  width: 174px;
-  height: 47px;
-  border: none;
-  color: white;
-  border-radius: 48px;
-  font-size: 0.9rem;
-  font-weight: 500;
-  background-color: var(--cyan);
-  text-align: center;
+  display: flex;
+  width: 10.90688rem;
+  height: 2.99588rem;
+  padding: 0.89875rem 1.17975rem 0.95869rem 1.19838rem;
+  justify-content: center;
   align-items: center;
+  flex-shrink: 0;
+  color: #fff;
+  font-family: "Quicksand", sans-serif;
+  font-size: 0.95869rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.79756rem; /* 187.5% */
+  border-radius: 2.99588rem;
+  background: #3cd8e8;
   margin-top: -300.5px;
 }
 
@@ -326,21 +330,21 @@ marquee {
   background-repeat: no-repeat;
 }
 
-.story button {
+.story-2-button {
   position: relative;
-  width: 10.875rem;
-  z-index: 1;
-  height: 2.4rem;
-  border: none;
+  display: flex;
+  width: 10.90688rem;
+  height: 2.39669rem;
+  padding: 0.59919rem 1.17975rem 0.65906rem 1.19838rem;
+  justify-content: center;
+  align-items: center;
   color: white;
   border-radius: 48px;
   font-size: 0.9rem;
   font-weight: 500;
-  background-color: #95B226;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  margin-top: -65%;
+  border-radius: 2.99588rem;
+  background: #95b226;
+  margin-top: -9.86rem;
 }
 
 .story-3 {
@@ -348,7 +352,7 @@ marquee {
   background-repeat: no-repeat;
 }
 
-.story-3 button{
+.story-3-button {
   background-color: var(--violet);
 }
 
@@ -362,7 +366,7 @@ marquee {
   background-repeat: no-repeat;
 }
 
-.stories-button{
+.stories-button {
   width: 12.3125rem;
   height: 50px;
   border: none;
@@ -372,6 +376,92 @@ marquee {
   font-size: 1.25rem;
   font-weight: bold;
   background-color: black;
+  margin-bottom: 2rem;
+}
+
+footer {
+  background: var(--sky-blue);
+  padding: 80px;
+}
+.footer-content {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer-links h1 {
+  color: #fff;
+  font-family: Quicksand;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.footer-links a {
+  color: #fff;
+  font-family: Quicksand;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.social {
+  display: flex;
+  gap: 1rem;
+}
+
+.footer-social {
+  display: flex;
+  flex-direction: column;
+  align-items: top;
+  gap: 2rem;
+}
+
+.footer-social h2 {
+  color: #fff;
+  font-family: Quicksand;
+  font-size: 1.625rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.625rem; /* 100% */
+}
+
+.footer-logo {
+  display: flex;
+  gap: 0.67rem;
+}
+
+.footer-logo h1 {
+  color: #fff;
+  font-family: Quicksand;
+  font-size: 2.63394rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2.46931rem; /* 93.75% */
+}
+
+.footer-logo-content {
+  display: flex;
+  flex-direction: column;
+  gap: 2.23rem;
+}
+
+.footer-logo-content p {
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #fff;
 }
 @media (max-width: 576px) {
   header {
@@ -494,20 +584,50 @@ marquee {
     display: none;
   }
 
-  .story{
+  .story {
     width: 173px;
     height: 180px;
     background-size: contain;
   }
 
-  .story h3{
+  .story h3 {
     margin-top: 118px;
     font-size: 0.6rem;
   }
 
-  .stories-button{
-    font-size: 1rem;
-    width: 8.3125rem;
-    height: 42px;
+  .story-2-button {
+    display: flex;
+    width: 6.49431rem;
+    height: 1.42706rem;
+    padding: 0.35675rem 0.7025rem 0.39244rem 0.7135rem;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 0.57081rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.07031rem; /* 187.5% */
+    text-transform: capitalize;
+    margin-top: -6.77rem;
+  }
+
+  .story-4-button {
+    display: flex;
+    width: 6.67769rem;
+    height: 1.42706rem;
+    padding: 0.35675rem 0.70231rem 0.39244rem 0.71356rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+  footer {
+    padding: 20px;
+  }
+  .footer-content {
+    flex-direction: column;
+    padding: 0px;
+    justify-content: space-between;
+    gap: 2rem;
+    margin: 4rem 0rem;
   }
 }
