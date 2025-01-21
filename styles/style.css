@@ -161,7 +161,7 @@ marquee {
   align-items: center;
   display: flex;
   flex-direction: column;
-  gap: 70px;
+  gap: 5rem;
 }
 
 .standard-curriculum h2 {
@@ -230,6 +230,7 @@ marquee {
   color: var(--violet);
 }
 .icons {
+  margin-top: 5rem;
   display: flex;
   justify-content: space-between;
   gap: 10px;
@@ -246,18 +247,19 @@ marquee {
 
 .our-stories {
   max-width: 1280px;
-  padding: 20px auto;
+  padding: 0px auto;
   margin: 0 auto;
   text-align: center;
   align-items: center;
   display: flex;
   flex-direction: column;
-  gap: 70px;
+  gap: 5rem;
 }
 
 .our-stories h2 {
-  margin-top: 60px;
+  margin-top: 5rem;
   font-size: 2.9rem;
+  line-height: 3.59375rem
 }
 
 .stories {
@@ -567,7 +569,8 @@ footer {
   }
 
   .our-stories {
-    margin: 0.75rem 1rem;
+    margin: 0rem 1rem;
+    padding: 0px;
   }
 
   .our-stories h2 {
