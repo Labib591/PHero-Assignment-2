@@ -528,7 +528,9 @@ footer {
 
   .hr {
     display: block;
+    color: var(--orange);
     background-color: var(--orange);
+    height: 2px;
   }
 
   .standard-curriculum {
